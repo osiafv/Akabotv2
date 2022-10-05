@@ -1,0 +1,10 @@
+const { smsg, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, runtime, fetchJson, getBuffer, jsonformat, format, parseMention, getRandom } = require('./lib/myfunc')
+const fs = require('fs')
+let cp = require('child_process')
+let { promisify } = require('util')
+const exec = promisify(cp.exec).bind(cp)
+require("http").createServer((_, res) => res.end("Sedang Berjalan!")).listen(8080)
+
+exec('pm2 start index.js')
+exec('pm2 save')
+exec('pm2 logs')
