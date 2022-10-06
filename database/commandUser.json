@@ -8,7 +8,7 @@
       },
       {
         "nama": "#menu",
-        "count": 80
+        "count": 81
       },
       {
         "nama": "#dashboard",
@@ -80,7 +80,7 @@
       },
       {
         "nama": "#join",
-        "count": 5
+        "count": 6
       },
       {
         "nama": "#s",
@@ -341,6 +341,10 @@
       },
       {
         "nama": "#waifu",
+        "count": 1
+      },
+      {
+        "nama": "#limit",
         "count": 1
       }
     ]
@@ -1281,7 +1285,7 @@
     "db": [
       {
         "nama": "#waifu",
-        "count": 19
+        "count": 20
       },
       {
         "nama": "#kiss",
@@ -1313,7 +1317,7 @@
       },
       {
         "nama": "#menu",
-        "count": 2
+        "count": 3
       },
       {
         "nama": "#couple",
@@ -1337,10 +1341,14 @@
       },
       {
         "nama": "#owner",
-        "count": 1
+        "count": 2
       },
       {
         "nama": "#ttp",
+        "count": 1
+      },
+      {
+        "nama": "#smeme",
         "count": 1
       }
     ]
@@ -4713,6 +4721,10 @@
       {
         "nama": "#play",
         "count": 1
+      },
+      {
+        "nama": "#menu",
+        "count": 1
       }
     ]
   },
@@ -6319,7 +6331,7 @@
       },
       {
         "nama": "#s",
-        "count": 2
+        "count": 3
       },
       {
         "nama": "#swm",
@@ -8173,10 +8185,14 @@
     "db": [
       {
         "nama": "#play",
-        "count": 3
+        "count": 5
       },
       {
         "nama": "#ytmp44",
+        "count": 3
+      },
+      {
+        "nama": "#ytmp33",
         "count": 1
       }
     ]
@@ -8273,6 +8289,74 @@
       },
       {
         "nama": "#sticker",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "jid": "6281358890606@s.whatsapp.net",
+    "db": [
+      {
+        "nama": "#my",
+        "count": 1
+      },
+      {
+        "nama": "#menu",
+        "count": 1
+      },
+      {
+        "nama": "#listgc",
+        "count": 1
+      },
+      {
+        "nama": "#listpc",
+        "count": 2
+      },
+      {
+        "nama": "#listonline",
+        "count": 1
+      },
+      {
+        "nama": "#owner",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "jid": "6282397129803@s.whatsapp.net",
+    "db": [
+      {
+        "nama": "#menu",
+        "count": 1
+      },
+      {
+        "nama": "#tiktoknowm",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "jid": "601127228759@s.whatsapp.net",
+    "db": [
+      {
+        "nama": "#s",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "jid": "6285732267014@s.whatsapp.net",
+    "db": [
+      {
+        "nama": "#my",
+        "count": 1
+      },
+      {
+        "nama": "#berburu",
+        "count": 1
+      },
+      {
+        "nama": "#menu",
         "count": 1
       }
     ]

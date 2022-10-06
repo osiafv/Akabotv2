@@ -324,8 +324,7 @@ module.exports = aka = async (aka, m, chatUpdate, store) => {
 
     // Detect Group Invite
     if (m.mtype === 'groupInviteMessage') {
-      //reply(`Ketik join untuk bergabung ke group whatsapp anda`)
-      reply(`Blum Boleh Om Habis Ke ban 2kali`)
+    reply(`Ketik join untuk bergabung ke group whatsapp anda`)
     }
 
     // console log command 
@@ -1674,7 +1673,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
         addCountCmd(`#${command.slice(1)}`, sender, _cmd)
         break
       case prefix + 'join': {
-        if (!isCreator) return reply(mess.owner)
+        //if (!isCreator) return reply(mess.owner)
         if (!text) return reply(`Masukkan Link Group!`)
         if (!args[0]) return reply("Linknya mana kak?")
         if (!isUrl(args[0]) && !args[0].includes('whatsapp.com')) return replay(`Invalid Link!`)
@@ -1682,10 +1681,10 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
         let vcc = vdd.split("https://chat.whatsapp.com/")[1]
         if (!vcc) return reply("Link invalid!")
         if (isCreator) {
-          await Akabot.groupAcceptInvite(vcc).then(async (res) => reply(jsonformat(res))).catch(_ => _)
+          await aka.groupAcceptInvite(vcc).then(async (res) => reply(jsonformat(res))).catch(_ => _)
           reply("Succes")
         } else {
-          Akabot.query({
+          aka.query({
             tag: "iq",
             attrs: {
               type: "get",
@@ -1695,11 +1694,11 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             content: [{ tag: "invite", attrs: { code: vcc } }]
           }).then(async (res) => {
             sizny = res.content[0].attrs.size
-            if (sizny < 10) {
-              teks = `Maaf anggota group anda kurang dari 50, minimal agar bot join harus mempunyai lebih dari 50 anggota`
-              Akabot.sendMessage(m.chat, { text: teks }, { quoted: m })
-            } else if (sizny > 10) {
-              await Akabot.groupAcceptInvite(vcc).then(async (res) => reply(jsonformat(res))).catch(_ => _)
+            if (sizny < 5) {
+              teks = `Maaf anggota group anda kurang dari 50, minimal agar bot join harus mempunyai lebih dari 5 anggota`
+              aka.sendMessage(m.chat, { text: teks }, { quoted: m })
+            } else if (sizny > 5) {
+              await aka.groupAcceptInvite(vcc).then(async (res) => reply(jsonformat(res))).catch(_ => _)
               reply("Succes")
             } else {
               reply("Error")
