@@ -1613,7 +1613,7 @@
     "db": [
       {
         "nama": "#menu",
-        "count": 3
+        "count": 4
       },
       {
         "nama": "#tebak",
@@ -1633,7 +1633,7 @@
       },
       {
         "nama": "#tagall",
-        "count": 3
+        "count": 6
       }
     ]
   },
@@ -8185,11 +8185,11 @@
     "db": [
       {
         "nama": "#play",
-        "count": 5
+        "count": 6
       },
       {
         "nama": "#ytmp44",
-        "count": 3
+        "count": 4
       },
       {
         "nama": "#ytmp33",
@@ -8355,6 +8355,24 @@
         "nama": "#berburu",
         "count": 1
       },
+      {
+        "nama": "#menu",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "jid": "6283850787818@s.whatsapp.net",
+    "db": [
+      {
+        "nama": "#my",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "jid": "6285601142988@s.whatsapp.net",
+    "db": [
       {
         "nama": "#menu",
         "count": 1
