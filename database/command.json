@@ -1,7 +1,7 @@
 [
   {
     "nama": "#menu",
-    "count": 617
+    "count": 689
   },
   {
     "nama": "#gamenya",
@@ -9,55 +9,51 @@
   },
   {
     "nama": "#pinterest",
-    "count": 497
+    "count": 532
   },
   {
     "nama": "#s",
-    "count": 349
-  },
-  {
-    "nama": "#family100",
-    "count": 242
+    "count": 396
   },
   {
     "nama": "#play",
-    "count": 238
+    "count": 261
+  },
+  {
+    "nama": "#family100",
+    "count": 244
   },
   {
     "nama": "#waifu",
-    "count": 205
+    "count": 208
+  },
+  {
+    "nama": "#ytmp4",
+    "count": 181
+  },
+  {
+    "nama": "#dashboard",
+    "count": 177
   },
   {
     "nama": "#tebak",
     "count": 176
   },
   {
-    "nama": "#dashboard",
-    "count": 165
-  },
-  {
-    "nama": "#ytmp4",
-    "count": 176
-  },
-  {
     "nama": "#ping",
-    "count": 116
+    "count": 125
   },
   {
     "nama": "#tiktok",
-    "count": 111
+    "count": 121
   },
   {
     "nama": "#owner",
-    "count": 103
+    "count": 117
   },
   {
     "nama": "#ytmp3",
-    "count": 89
-  },
-  {
-    "nama": "#gimage",
-    "count": 77
+    "count": 96
   },
   {
     "nama": "#neko",
@@ -65,7 +61,15 @@
   },
   {
     "nama": "#delete",
-    "count": 73
+    "count": 80
+  },
+  {
+    "nama": "#gimage",
+    "count": 77
+  },
+  {
+    "nama": "#sticker",
+    "count": 76
   },
   {
     "nama": "#ppcp",
@@ -73,59 +77,59 @@
   },
   {
     "nama": "#tt",
-    "count": 68
-  },
-  {
-    "nama": "#sticker",
-    "count": 65
+    "count": 69
   },
   {
     "nama": "#google",
-    "count": 65
+    "count": 66
   },
   {
     "nama": "#stiker",
+    "count": 55
+  },
+  {
+    "nama": "#smeme",
     "count": 52
   },
   {
-    "nama": "#tiktoknowm",
-    "count": 44
+    "nama": "#ttp",
+    "count": 48
   },
   {
     "nama": "#my",
-    "count": 43
+    "count": 46
+  },
+  {
+    "nama": "#tiktoknowm",
+    "count": 45
   },
   {
     "nama": "#jodohku",
-    "count": 39
+    "count": 41
   },
   {
-    "nama": "#hidetag",
-    "count": 34
+    "nama": "#kiss",
+    "count": 35
   },
   {
     "nama": "#ytvideo",
     "count": 35
   },
   {
-    "nama": "#kiss",
-    "count": 33
+    "nama": "#hidetag",
+    "count": 34
   },
   {
-    "nama": "#ttp",
-    "count": 36
-  },
-  {
-    "nama": "#smeme",
+    "nama": "#attp",
     "count": 31
+  },
+  {
+    "nama": "#toimg",
+    "count": 29
   },
   {
     "nama": "#limit",
     "count": 29
-  },
-  {
-    "nama": "#toimg",
-    "count": 28
   },
   {
     "nama": "#jadian",
@@ -145,7 +149,7 @@
   },
   {
     "nama": "#del",
-    "count": 24
+    "count": 25
   },
   {
     "nama": "#nightcore",
@@ -156,6 +160,10 @@
     "count": 22
   },
   {
+    "nama": "#afk",
+    "count": 21
+  },
+  {
     "nama": "#group",
     "count": 21
   },
@@ -164,31 +172,31 @@
     "count": 21
   },
   {
+    "nama": "#emojimix",
+    "count": 21
+  },
+  {
+    "nama": "#tagall",
+    "count": 20
+  },
+  {
     "nama": "#couple",
     "count": 20
   },
   {
-    "nama": "#emojimix",
-    "count": 20
-  },
-  {
-    "nama": "#attp",
-    "count": 21
-  },
-  {
-    "nama": "#afk",
+    "nama": "#ig",
     "count": 19
   },
   {
-    "nama": "#ig",
-    "count": 18
-  },
-  {
-    "nama": "#tagall",
-    "count": 17
+    "nama": "#tomp3",
+    "count": 16
   },
   {
     "nama": "#instagram",
+    "count": 16
+  },
+  {
+    "nama": "#toimage",
     "count": 16
   },
   {
@@ -196,24 +204,24 @@
     "count": 15
   },
   {
-    "nama": "#quotesanime",
-    "count": 13
-  },
-  {
     "nama": "#gura",
-    "count": 13
-  },
-  {
-    "nama": "#toimage",
     "count": 14
   },
   {
-    "nama": "#tomp3",
+    "nama": "#bonk",
+    "count": 13
+  },
+  {
+    "nama": "#quotesanime",
     "count": 13
   },
   {
     "nama": "#facebook",
     "count": 12
+  },
+  {
+    "nama": "#ytaudio",
+    "count": 11
   },
   {
     "nama": "#self",
@@ -244,10 +252,6 @@
     "count": 10
   },
   {
-    "nama": "#ytaudio",
-    "count": 10
-  },
-  {
     "nama": "#linkgroup",
     "count": 10
   },
@@ -268,12 +272,12 @@
     "count": 8
   },
   {
-    "nama": "#ttt",
+    "nama": "#coffe",
     "count": 7
   },
   {
-    "nama": "#bonk",
-    "count": 12
+    "nama": "#ttt",
+    "count": 7
   },
   {
     "nama": "#awoo",
@@ -320,11 +324,19 @@
     "count": 6
   },
   {
-    "nama": "#zodiak",
-    "count": 5
+    "nama": "#shinobu",
+    "count": 6
   },
   {
-    "nama": "#shinobu",
+    "nama": "#ytmp44",
+    "count": 6
+  },
+  {
+    "nama": "#ytmp33",
+    "count": 9
+  },
+  {
+    "nama": "#zodiak",
     "count": 5
   },
   {
@@ -344,16 +356,16 @@
     "count": 5
   },
   {
-    "nama": "#coffe",
-    "count": 5
-  },
-  {
     "nama": "#help",
     "count": 5
   },
   {
     "nama": "#profile",
     "count": 5
+  },
+  {
+    "nama": "#pin",
+    "count": 4
   },
   {
     "nama": "#tovn",
@@ -432,16 +444,20 @@
     "count": 3
   },
   {
+    "nama": "#tourl",
+    "count": 3
+  },
+  {
+    "nama": "#listpc",
+    "count": 3
+  },
+  {
     "nama": "#swm",
     "count": 2
   },
   {
     "nama": "#fat",
     "count": 2
-  },
-  {
-    "nama": "#tourl",
-    "count": 3
   },
   {
     "nama": "#doge",
@@ -485,14 +501,6 @@
   },
   {
     "nama": "#listgc",
-    "count": 2
-  },
-  {
-    "nama": "#listpc",
-    "count": 2
-  },
-  {
-    "nama": "#pin",
     "count": 2
   },
   {
@@ -585,6 +593,10 @@
   },
   {
     "nama": "#huluh",
+    "count": 1
+  },
+  {
+    "nama": "#statusbot",
     "count": 1
   }
 ]

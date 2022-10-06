@@ -401,7 +401,7 @@ Ketik .my Untuk Informasi Lainnya
       console.log(anuu)
       aka.sendMessage(m.sender, { text: anuu, mentions: [m.sender] }, { quoted: m })
       aka.sendMessage(from, { text: `Tq Udah Daftar`, mentions: [m.sender] }, { quoted: m })
-      aka.sendMessage("62895704151428@s.whatsapp.net", { text: anuu, mentions: [m.sender] }, { quoted: m })
+      aka.sendMessage("120363042343353505@g.us", { text: anuu, mentions: [m.sender] }, { quoted: m })
     }
     if (command.toLowerCase() === 'verify') {
       if (isRegistered) return reply('Akun Kamu Sudah Terverify! Jangan Daftar Lagi!')
@@ -425,7 +425,7 @@ Ketik .my Untuk Informasi Lainnya
       console.log(anuu)
       aka.sendMessage(from, { text: `Tq Udah Daftar`, mentions: [m.sender] }, { quoted: m })
       aka.sendMessage(m.sender, { text: anuu, mentions: [m.sender] }, { quoted: m })
-      aka.sendMessage("62895704151428@s.whatsapp.net", { text: anuu, mentions: [m.sender] }, { quoted: m })
+      aka.sendMessage("120363042343353505@g.us", { text: anuu, mentions: [m.sender] }, { quoted: m })
     }
     var butCmd2 = [{ buttonId: `verify`, buttonText: { displayText: `Daftar` }, type: 1 }]
     var veriymage = getBuffer(global.flaming + `Resgister`)
@@ -2827,7 +2827,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
         addCountCmd(`#${command.slice(1)}`, sender, _cmd)
         break
       case prefix + 'pinterest': case prefix + 'pin': {
-        if (!text) return reply(`Example : ${prefix + command}`)
+        if (isUrl) return reply(`Jangan Gunakan Link.. Khusus untuk pencarian contoh\nExample : ${prefix + command} aesthetik`)
+        if (!text) return reply(`Example : ${prefix + command} aesthetik`)
         reply(mess.wait)
         let { pinterest } = require('./lib/scraper')
         let anu = await pinterest(text)

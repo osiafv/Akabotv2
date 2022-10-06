@@ -255,7 +255,7 @@ async function startaka() {
     return status
   }
 
-  aka.public = false
+  aka.public = true
 
   aka.serializeM = (m) => smsg(aka, m, store)
 

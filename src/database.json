@@ -215,7 +215,7 @@
       "afkReason": "",
       "limit": 100
     },
-    "628977205511@s.whatsapp.net": {
+    "6285776277045@s.whatsapp.net": {
       "afkTime": -1,
       "afkReason": "",
       "limit": 100
@@ -291,6 +291,10 @@
       "antilink": false
     },
     "120363022373854063@g.us": {
+      "mute": false,
+      "antilink": false
+    },
+    "6281248249833@s.whatsapp.net": {
       "mute": false,
       "antilink": false
     },
