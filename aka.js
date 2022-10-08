@@ -3600,7 +3600,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
               const list = {
                 title: 'Instagram Search',
                 rows: [{
-                  title: `⭔ No : ${urut++}`,
+                  title: `⭔ Slide No : ${urut++}`,
                   rowId: `${prefix}igunduh ${i}`,
                 },
                 ]
