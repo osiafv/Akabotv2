@@ -1,7 +1,7 @@
 [
   {
     "nama": "#menu",
-    "count": 697
+    "count": 847
   },
   {
     "nama": "#gamenya",
@@ -13,67 +13,71 @@
   },
   {
     "nama": "#s",
-    "count": 398
+    "count": 491
   },
   {
     "nama": "#play",
-    "count": 264
+    "count": 289
+  },
+  {
+    "nama": "#waifu",
+    "count": 249
   },
   {
     "nama": "#family100",
     "count": 244
   },
   {
-    "nama": "#waifu",
-    "count": 209
-  },
-  {
     "nama": "#ytmp4",
-    "count": 181
+    "count": 220
   },
   {
     "nama": "#dashboard",
-    "count": 177
+    "count": 203
   },
   {
     "nama": "#tebak",
     "count": 176
   },
   {
-    "nama": "#ping",
-    "count": 125
-  },
-  {
     "nama": "#tiktok",
-    "count": 122
+    "count": 161
   },
   {
     "nama": "#owner",
-    "count": 119
+    "count": 145
+  },
+  {
+    "nama": "#ping",
+    "count": 137
   },
   {
     "nama": "#ytmp3",
-    "count": 96
+    "count": 117
+  },
+  {
+    "nama": "#ppcp",
+    "count": 98
   },
   {
     "nama": "#neko",
-    "count": 80
+    "count": 82
+  },
+  {
+    "nama": "#sticker",
+    "count": 83
   },
   {
     "nama": "#delete",
-    "count": 80
+    "count": 81
   },
   {
     "nama": "#gimage",
     "count": 77
   },
   {
-    "nama": "#sticker",
-    "count": 76
-  },
-  {
-    "nama": "#ppcp",
-    "count": 74
+    "nama": "#smeme",
+    "count": 72
   },
   {
     "nama": "#tt",
@@ -84,63 +88,75 @@
     "count": 66
   },
   {
-    "nama": "#stiker",
-    "count": 55
+    "nama": "#ttp",
+    "count": 63
   },
   {
-    "nama": "#smeme",
+    "nama": "#stiker",
     "count": 59
   },
   {
-    "nama": "#ttp",
-    "count": 48
-  },
-  {
     "nama": "#my",
-    "count": 49
-  },
-  {
-    "nama": "#tiktoknowm",
-    "count": 47
+    "count": 57
   },
   {
     "nama": "#jodohku",
-    "count": 41
+    "count": 56
+  },
+  {
+    "nama": "#tiktoknowm",
+    "count": 54
+  },
+  {
+    "nama": "#math",
+    "count": 39
   },
   {
     "nama": "#kiss",
-    "count": 35
-  },
-  {
-    "nama": "#ytvideo",
-    "count": 35
+    "count": 38
   },
   {
     "nama": "#hidetag",
-    "count": 34
+    "count": 38
+  },
+  {
+    "nama": "#ytvideo",
+    "count": 37
   },
   {
     "nama": "#attp",
-    "count": 31
+    "count": 42
+  },
+  {
+    "nama": "#tagall",
+    "count": 38
+  },
+  {
+    "nama": "#limit",
+    "count": 34
+  },
+  {
+    "nama": "#yts",
+    "count": 34
+  },
+  {
+    "nama": "#jadian",
+    "count": 30
+  },
+  {
+    "nama": "#?",
+    "count": 30
   },
   {
     "nama": "#toimg",
     "count": 29
   },
   {
-    "nama": "#limit",
-    "count": 30
+    "nama": "#ig",
+    "count": 49
   },
   {
-    "nama": "#jadian",
-    "count": 27
-  },
-  {
-    "nama": "#yts",
-    "count": 27
-  },
-  {
-    "nama": "#?",
+    "nama": "#del",
     "count": 26
   },
   {
@@ -148,23 +164,31 @@
     "count": 25
   },
   {
-    "nama": "#del",
+    "nama": "#group",
+    "count": 25
+  },
+  {
+    "nama": "#couple",
     "count": 25
   },
   {
     "nama": "#nightcore",
-    "count": 23
+    "count": 24
   },
   {
     "nama": "#ytsearch",
-    "count": 22
+    "count": 24
   },
   {
     "nama": "#afk",
-    "count": 21
+    "count": 23
   },
   {
-    "nama": "#group",
+    "nama": "#join",
+    "count": 25
+  },
+  {
+    "nama": "#emojimix",
     "count": 21
   },
   {
@@ -172,31 +196,23 @@
     "count": 21
   },
   {
-    "nama": "#emojimix",
-    "count": 21
-  },
-  {
-    "nama": "#tagall",
-    "count": 23
-  },
-  {
-    "nama": "#couple",
+    "nama": "#ytmp33",
     "count": 20
   },
   {
-    "nama": "#ig",
-    "count": 19
-  },
-  {
-    "nama": "#tomp3",
-    "count": 16
+    "nama": "#toimage",
+    "count": 20
   },
   {
     "nama": "#instagram",
-    "count": 16
+    "count": 17
   },
   {
-    "nama": "#toimage",
+    "nama": "#tomp3",
+    "count": 17
+  },
+  {
+    "nama": "#quotesanime",
     "count": 16
   },
   {
@@ -204,55 +220,51 @@
     "count": 15
   },
   {
+    "nama": "#ytmp44",
+    "count": 16
+  },
+  {
+    "nama": "#fb",
+    "count": 15
+  },
+  {
     "nama": "#gura",
     "count": 14
+  },
+  {
+    "nama": "#halah",
+    "count": 13
   },
   {
     "nama": "#bonk",
     "count": 13
   },
   {
-    "nama": "#quotesanime",
+    "nama": "#ytaudio",
     "count": 13
+  },
+  {
+    "nama": "#megumin",
+    "count": 12
+  },
+  {
+    "nama": "#linkgroup",
+    "count": 12
   },
   {
     "nama": "#facebook",
     "count": 12
   },
   {
-    "nama": "#ytaudio",
-    "count": 11
-  },
-  {
-    "nama": "#self",
-    "count": 11
-  },
-  {
     "nama": "#sell",
     "count": 11
   },
   {
-    "nama": "#igdl",
-    "count": 10
+    "nama": "#self",
+    "count": 12
   },
   {
-    "nama": "#game",
-    "count": 10
-  },
-  {
-    "nama": "#fb",
-    "count": 10
-  },
-  {
-    "nama": "#megumin",
-    "count": 10
-  },
-  {
-    "nama": "#public",
-    "count": 10
-  },
-  {
-    "nama": "#linkgroup",
+    "nama": "#shinobu",
     "count": 10
   },
   {
@@ -260,7 +272,31 @@
     "count": 10
   },
   {
-    "nama": "#yeet",
+    "nama": "#public",
+    "count": 11
+  },
+  {
+    "nama": "#game",
+    "count": 10
+  },
+  {
+    "nama": "#igdl",
+    "count": 10
+  },
+  {
+    "nama": "#coffe",
+    "count": 9
+  },
+  {
+    "nama": "#antilink",
+    "count": 9
+  },
+  {
+    "nama": "#earrape",
+    "count": 8
+  },
+  {
+    "nama": "#sgif",
     "count": 8
   },
   {
@@ -268,23 +304,23 @@
     "count": 8
   },
   {
-    "nama": "#antilink",
+    "nama": "#yeet",
     "count": 8
   },
   {
-    "nama": "#coffe",
+    "nama": "#robot",
     "count": 7
   },
   {
-    "nama": "#ttt",
+    "nama": "#wallpaper",
     "count": 7
   },
   {
-    "nama": "#awoo",
+    "nama": "#zodiak",
     "count": 7
   },
   {
-    "nama": "#blown",
+    "nama": "#tictactoe",
     "count": 7
   },
   {
@@ -292,19 +328,23 @@
     "count": 7
   },
   {
-    "nama": "#earrape",
+    "nama": "#blown",
     "count": 7
   },
   {
-    "nama": "#sgif",
-    "count": 8
+    "nama": "#awoo",
+    "count": 7
   },
   {
-    "nama": "#cry",
-    "count": 6
+    "nama": "#ttt",
+    "count": 7
   },
   {
-    "nama": "#ceksewa",
+    "nama": "#toaudio",
+    "count": 7
+  },
+  {
+    "nama": "#listpc",
     "count": 6
   },
   {
@@ -312,47 +352,15 @@
     "count": 6
   },
   {
-    "nama": "#toaudio",
+    "nama": "#ceksewa",
     "count": 6
   },
   {
-    "nama": "#halah",
+    "nama": "#cry",
     "count": 6
   },
   {
-    "nama": "#tictactoe",
-    "count": 6
-  },
-  {
-    "nama": "#shinobu",
-    "count": 6
-  },
-  {
-    "nama": "#ytmp44",
-    "count": 9
-  },
-  {
-    "nama": "#ytmp33",
-    "count": 10
-  },
-  {
-    "nama": "#zodiak",
-    "count": 5
-  },
-  {
-    "nama": "#hug",
-    "count": 5
-  },
-  {
-    "nama": "#join",
-    "count": 6
-  },
-  {
-    "nama": "#wallpaper",
-    "count": 5
-  },
-  {
-    "nama": "#tupai",
+    "nama": "#profile",
     "count": 5
   },
   {
@@ -360,35 +368,15 @@
     "count": 5
   },
   {
-    "nama": "#profile",
+    "nama": "#tupai",
     "count": 5
   },
   {
-    "nama": "#pin",
-    "count": 4
+    "nama": "#hug",
+    "count": 5
   },
   {
-    "nama": "#tovn",
-    "count": 4
-  },
-  {
-    "nama": "#deep",
-    "count": 4
-  },
-  {
-    "nama": "#suitpvp",
-    "count": 4
-  },
-  {
-    "nama": "#pat",
-    "count": 4
-  },
-  {
-    "nama": "#robot",
-    "count": 4
-  },
-  {
-    "nama": "#setname",
+    "nama": "#bass",
     "count": 4
   },
   {
@@ -396,51 +384,47 @@
     "count": 4
   },
   {
-    "nama": "#nagahari",
-    "count": 3
+    "nama": "#setname",
+    "count": 4
   },
   {
-    "nama": "#tqtoo",
-    "count": 3
+    "nama": "#pat",
+    "count": 4
   },
   {
-    "nama": "#pasangan",
-    "count": 3
+    "nama": "#suitpvp",
+    "count": 4
   },
   {
-    "nama": "#bass",
-    "count": 3
+    "nama": "#deep",
+    "count": 4
   },
   {
-    "nama": "#cocoknama",
-    "count": 3
+    "nama": "#tovn",
+    "count": 4
   },
   {
-    "nama": "#ramaljodoh",
-    "count": 3
-  },
-  {
-    "nama": "#buy",
-    "count": 3
-  },
-  {
-    "nama": "#setdesc",
-    "count": 3
-  },
-  {
-    "nama": "#beli",
-    "count": 3
+    "nama": "#pin",
+    "count": 4
   },
   {
     "nama": "#artinama",
+    "count": 4
+  },
+  {
+    "nama": "#hilih",
     "count": 3
   },
   {
-    "nama": "#ttc",
+    "nama": "#statusbot",
     "count": 3
   },
   {
-    "nama": "#math",
+    "nama": "#fast",
+    "count": 3
+  },
+  {
+    "nama": "#listgc",
     "count": 3
   },
   {
@@ -448,51 +432,59 @@
     "count": 3
   },
   {
-    "nama": "#listpc",
-    "count": 5
+    "nama": "#ttc",
+    "count": 3
   },
   {
-    "nama": "#swm",
+    "nama": "#beli",
+    "count": 3
+  },
+  {
+    "nama": "#setdesc",
+    "count": 3
+  },
+  {
+    "nama": "#buy",
+    "count": 3
+  },
+  {
+    "nama": "#ramaljodoh",
+    "count": 3
+  },
+  {
+    "nama": "#cocoknama",
+    "count": 3
+  },
+  {
+    "nama": "#pasangan",
+    "count": 3
+  },
+  {
+    "nama": "#tqtoo",
+    "count": 3
+  },
+  {
+    "nama": "#nagahari",
+    "count": 3
+  },
+  {
+    "nama": "#listonline",
+    "count": 4
+  },
+  {
+    "nama": "#setppgc",
+    "count": 3
+  },
+  {
+    "nama": "#ban",
+    "count": 3
+  },
+  {
+    "nama": "#listcmd",
     "count": 2
   },
   {
-    "nama": "#fat",
-    "count": 2
-  },
-  {
-    "nama": "#doge",
-    "count": 2
-  },
-  {
-    "nama": "#pins",
-    "count": 2
-  },
-  {
-    "nama": "#jual",
-    "count": 2
-  },
-  {
-    "nama": "#slow",
-    "count": 2
-  },
-  {
-    "nama": "#fast",
-    "count": 2
-  },
-  {
-    "nama": "#ytplay",
-    "count": 2
-  },
-  {
-    "nama": "#tovideo",
-    "count": 2
-  },
-  {
-    "nama": "#holoh",
-    "count": 2
-  },
-  {
-    "nama": "#inventory",
+    "nama": "#inventori",
     "count": 2
   },
   {
@@ -500,95 +492,47 @@
     "count": 2
   },
   {
-    "nama": "#listgc",
-    "count": 3
-  },
-  {
-    "nama": "#inventori",
+    "nama": "#inventory",
     "count": 2
   },
   {
-    "nama": "#keberuntungan",
-    "count": 1
-  },
-  {
-    "nama": "#penyakit",
-    "count": 1
-  },
-  {
-    "nama": "#ramalcinta",
-    "count": 1
-  },
-  {
-    "nama": "#heal",
-    "count": 1
-  },
-  {
-    "nama": "#claim",
-    "count": 1
-  },
-  {
-    "nama": "#hilih",
-    "count": 1
-  },
-  {
-    "nama": "#listcmd",
-    "count": 1
-  },
-  {
-    "nama": "#sewalist",
-    "count": 1
-  },
-  {
-    "nama": "#editinfo",
-    "count": 1
-  },
-  {
-    "nama": "#zodiac",
-    "count": 1
-  },
-  {
-    "nama": "#wikimedia",
-    "count": 1
-  },
-  {
-    "nama": "#sc",
-    "count": 1
-  },
-  {
-    "nama": "#tiktokaudio",
-    "count": 1
-  },
-  {
-    "nama": "#heleh",
-    "count": 1
-  },
-  {
-    "nama": "#listonline",
+    "nama": "#holoh",
     "count": 2
   },
   {
-    "nama": "#delttt",
-    "count": 1
+    "nama": "#tovideo",
+    "count": 2
   },
   {
-    "nama": "#setppgc",
-    "count": 1
+    "nama": "#ytplay",
+    "count": 2
   },
   {
-    "nama": "#cuddle",
-    "count": 1
+    "nama": "#slow",
+    "count": 2
   },
   {
-    "nama": "#tomp4",
-    "count": 1
+    "nama": "#jual",
+    "count": 2
   },
   {
-    "nama": "#addmsg",
-    "count": 1
+    "nama": "#pins",
+    "count": 2
   },
   {
-    "nama": "#getmsg",
+    "nama": "#doge",
+    "count": 2
+  },
+  {
+    "nama": "#fat",
+    "count": 2
+  },
+  {
+    "nama": "#swm",
+    "count": 2
+  },
+  {
+    "nama": "#mediafire",
     "count": 1
   },
   {
@@ -596,7 +540,75 @@
     "count": 1
   },
   {
-    "nama": "#statusbot",
+    "nama": "#getmsg",
+    "count": 1
+  },
+  {
+    "nama": "#addmsg",
+    "count": 1
+  },
+  {
+    "nama": "#tomp4",
+    "count": 1
+  },
+  {
+    "nama": "#cuddle",
+    "count": 1
+  },
+  {
+    "nama": "#delttt",
+    "count": 1
+  },
+  {
+    "nama": "#heleh",
+    "count": 1
+  },
+  {
+    "nama": "#tiktokaudio",
+    "count": 1
+  },
+  {
+    "nama": "#sc",
+    "count": 1
+  },
+  {
+    "nama": "#wikimedia",
+    "count": 1
+  },
+  {
+    "nama": "#zodiac",
+    "count": 1
+  },
+  {
+    "nama": "#editinfo",
+    "count": 1
+  },
+  {
+    "nama": "#sewalist",
+    "count": 1
+  },
+  {
+    "nama": "#claim",
+    "count": 1
+  },
+  {
+    "nama": "#heal",
+    "count": 1
+  },
+  {
+    "nama": "#ramalcinta",
+    "count": 1
+  },
+  {
+    "nama": "#penyakit",
+    "count": 1
+  },
+  {
+    "nama": "#keberuntungan",
+    "count": 1
+  },
+  {
+    "nama": "#togif",
     "count": 1
   }
 ]

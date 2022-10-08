@@ -324,7 +324,7 @@ module.exports = aka = async (aka, m, chatUpdate, store) => {
 
     // Detect Group Invite
     if (m.mtype === 'groupInviteMessage') {
-    reply(`Ketik join untuk bergabung ke group whatsapp anda`)
+      reply(`Ketik join untuk bergabung ke group whatsapp anda`)
     }
 
     // console log command 
@@ -1781,12 +1781,12 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
         break
       case prefix + 'ban': {
         if (!isCreator) return replay(mess.owner)
+        if (!q) return reply(`Pilih add or del, Example : ${prefix + command} add/(Reply pesan atau nomor)/reasonnya or del (Reply pesan atau nomor)`)
         swn = args.join(" ")
         jenisnya = swn.split("/")[0];
         nomor = swn.split("/")[1];
         reason = swn.split("/")[2];
         num = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : nomor.replace(/[^0-9]/g, '') + '@s.whatsapp.net'
-        if (!q.includes('/')) return reply(`Pilih add or del, Example : ${prefix + command} add/(Reply pesan atau nomor)/reasonnya or del (Reply pesan atau nomor)`)
         if (num.includes('+')) return reply(`Jangan Menggunakan Ini '+' `)
         if (num.includes('-')) return reply(`Jangan Menggunakan Ini '-' `)
         if (jenisnya === "add") {
@@ -3579,37 +3579,65 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
         let urlnya = text
         const options = {
           method: 'GET',
-          url: 'https://instagram-media-downloader.p.rapidapi.com/rapid/post.php',
+          url: 'https://instagram-story-downloader-media-downloader.p.rapidapi.com/index',
           params: { url: args[0] },
           headers: {
             'X-RapidAPI-Key': global.rapidkey,
-            'X-RapidAPI-Host': 'instagram-media-downloader.p.rapidapi.com'
+            'X-RapidAPI-Host': 'instagram-story-downloader-media-downloader.p.rapidapi.com'
           }
         };
+
         axios.request(options).then(function(response) {
           console.log(response.data);
+          let linck = response.data.media
+          let linck1 = response.data.Type
+          let desksz = response.data.title
 
-
-          //let linck = response.data.video
-          let linck = response.data.video ? response.data.video : response.data.image
-          let linckk = response.data.image
-          let desksz = response.data.caption
-          if (linck.includes("webp")) {
-            aka.sendMessage(from, { image: { url: linck }, caption: `Caption : ${desksz}`, contextInfo: { "externalAdReply": { "title": ` ${global.botname}`, "body": `${global.ownername}`, "previewType": "PHOTO", "thumbnailUrl": ``, "thumbnail": fs.readFileSync(`./media/pepe.jpg`), "sourceUrl": `${global.linkz}` } } }, { quoted: m })
-          } else
-            if (linck.includes("mp4")) {
-              aka.sendMessage(from, { video: { url: linck }, caption: `Caption : ${desksz}`, contextInfo: { "externalAdReply": { "title": ` ${global.botname}`, "body": `${global.ownername}`, "previewType": "PHOTO", "thumbnailUrl": ``, "thumbnail": fs.readFileSync(`./media/pepe.jpg`), "sourceUrl": `${global.linkz}` } } }, { quoted: m })
-            } else
-              if (linck.includes("jpg")) {
-                aka.sendMessage(from, { image: { url: linck }, caption: `Caption : ${desksz}`, contextInfo: { "externalAdReply": { "title": ` ${global.botname}`, "body": `${global.ownername}`, "previewType": "PHOTO", "thumbnailUrl": ``, "thumbnail": fs.readFileSync(`./media/pepe.jpg`), "sourceUrl": `${global.linkz}` } } }, { quoted: m })
+          if (linck1.includes("Carousel")) {
+            var sections = [];
+            var urut = 1
+            for (let i of linck) {
+              const list = {
+                title: 'Instagram Search',
+                rows: [{
+                  title: `⭔ No : ${urut++}`,
+                  rowId: `${prefix}igunduh ${i}`,
+                },
+                ]
               }
+              sections.push(list)
+            }
+            aka.sendMessage(from, { text: `Berikut Ig Search`, footer: global.namebot, title: "[ IG Search 🔎 ]", buttonText: "Click and see search results➡️", sections }, { quoted: m }
+            )
+          } else
+            if (linck.includes("webp")) {
+              aka.sendMessage(from, { image: { url: linck }, caption: `Caption : ${desksz}`, contextInfo: { "externalAdReply": { "title": ` ${global.botname}`, "body": `${global.ownername}`, "previewType": "PHOTO", "thumbnailUrl": ``, "thumbnail": fs.readFileSync(`./media/pepe.jpg`), "sourceUrl": `${global.linkz}` } } }, { quoted: m })
+            } else
+              if (linck.includes("mp4")) {
+                aka.sendMessage(from, { video: { url: linck }, caption: `Caption : ${desksz}`, contextInfo: { "externalAdReply": { "title": ` ${global.botname}`, "body": `${global.ownername}`, "previewType": "PHOTO", "thumbnailUrl": ``, "thumbnail": fs.readFileSync(`./media/pepe.jpg`), "sourceUrl": `${global.linkz}` } } }, { quoted: m })
+              } else
+                if (linck.includes("jpg")) {
+                  aka.sendMessage(from, { image: { url: linck }, caption: `Caption : ${desksz}`, contextInfo: { "externalAdReply": { "title": ` ${global.botname}`, "body": `${global.ownername}`, "previewType": "PHOTO", "thumbnailUrl": ``, "thumbnail": fs.readFileSync(`./media/pepe.jpg`), "sourceUrl": `${global.linkz}` } } }, { quoted: m })
+                }
         }).catch(function(error) {
           console.error(error);
           Laporerr(error)
           reply(`_[ ! ] Error Query Yang Anda Masukan Tidak Ada\nVideo Telah Dihapus Atau DI Private Oleh Pemilik`)
         });
       }
+
         addCountCmd(`#${command.slice(1)}`, sender, _cmd)
+        break
+      case prefix + 'igunduh':
+        if (args[0].includes("webp")) {
+              aka.sendMessage(from, { image: { url: args[0] }, contextInfo: { "externalAdReply": { "title": ` ${global.botname}`, "body": `${global.ownername}`, "previewType": "PHOTO", "thumbnailUrl": ``, "thumbnail": fs.readFileSync(`./media/pepe.jpg`), "sourceUrl": `${global.linkz}` } } }, { quoted: m })
+            } else
+              if (args[0].includes("mp4")) {
+                aka.sendMessage(from, { video: { url: args[0] }, contextInfo: { "externalAdReply": { "title": ` ${global.botname}`, "body": `${global.ownername}`, "previewType": "PHOTO", "thumbnailUrl": ``, "thumbnail": fs.readFileSync(`./media/pepe.jpg`), "sourceUrl": `${global.linkz}` } } }, { quoted: m })
+              } else
+                if (args[0].includes("jpg")) {
+                  aka.sendMessage(from, { image: { url: args[0] }, contextInfo: { "externalAdReply": { "title": ` ${global.botname}`, "body": `${global.ownername}`, "previewType": "PHOTO", "thumbnailUrl": ``, "thumbnail": fs.readFileSync(`./media/pepe.jpg`), "sourceUrl": `${global.linkz}` } } }, { quoted: m })
+                }
         break
       case prefix + 'mediafire': {
         if (!text) return reply(`Masukkan Query Link!`)
